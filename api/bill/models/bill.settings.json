@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bills",
+  "info": {
+    "name": "Bill"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "customerName": {
+      "type": "string",
+      "required": true
+    },
+    "customerLastName": {
+      "type": "string",
+      "required": true
+    },
+    "customerIdentification": {
+      "type": "string",
+      "required": true
+    },
+    "paymentMethod": {
+      "model": "payment-method",
+      "via": "bills"
+    },
+    "customerCreditCard": {
+      "type": "string",
+      "required": false
+    },
+    "products": {
+      "type": "json",
+      "required": true
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "bills"
+    }
+  }
+}
