@@ -44,6 +44,10 @@
     "customerCountry": {
       "type": "string",
       "required": true
+    },
+    "customerAddress": {
+      "type": "string",
+      "required": true
     }
   }
 }
