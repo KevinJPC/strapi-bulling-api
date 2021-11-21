@@ -48,6 +48,10 @@
     "customerAddress": {
       "type": "string",
       "required": true
+    },
+    "customerPostalCode": {
+      "type": "string",
+      "required": true
     }
   }
 }
