@@ -52,6 +52,10 @@
     "customerPostalCode": {
       "type": "string",
       "required": true
+    },
+    "Status": {
+      "type": "integer",
+      "required": true
     }
   }
 }

@@ -523,7 +523,8 @@
           "products",
           "customerCountry",
           "customerAddress",
-          "customerPostalCode"
+          "customerPostalCode",
+          "Status"
         ],
         "properties": {
           "id": {
@@ -633,6 +634,9 @@
           "customerPostalCode": {
             "type": "string"
           },
+          "Status": {
+            "type": "integer"
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -647,7 +651,8 @@
           "products",
           "customerCountry",
           "customerAddress",
-          "customerPostalCode"
+          "customerPostalCode",
+          "Status"
         ],
         "properties": {
           "customerName": {
@@ -679,6 +684,9 @@
           },
           "customerPostalCode": {
             "type": "string"
+          },
+          "Status": {
+            "type": "integer"
           },
           "published_at": {
             "type": "string",

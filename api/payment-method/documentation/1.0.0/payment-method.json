@@ -550,7 +550,8 @@
                 "products",
                 "customerCountry",
                 "customerAddress",
-                "customerPostalCode"
+                "customerPostalCode",
+                "Status"
               ],
               "properties": {
                 "id": {
@@ -585,6 +586,9 @@
                 },
                 "customerPostalCode": {
                   "type": "string"
+                },
+                "Status": {
+                  "type": "integer"
                 },
                 "published_at": {
                   "type": "string"

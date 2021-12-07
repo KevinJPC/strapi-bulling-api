@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "11/21/2021 11:16:34 AM"
+    "x-generation-date": "12/07/2021 11:02:45 AM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -3897,7 +3897,8 @@
           "products",
           "customerCountry",
           "customerAddress",
-          "customerPostalCode"
+          "customerPostalCode",
+          "Status"
         ],
         "properties": {
           "id": {
@@ -4007,6 +4008,9 @@
           "customerPostalCode": {
             "type": "string"
           },
+          "Status": {
+            "type": "integer"
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -4021,7 +4025,8 @@
           "products",
           "customerCountry",
           "customerAddress",
-          "customerPostalCode"
+          "customerPostalCode",
+          "Status"
         ],
         "properties": {
           "customerName": {
@@ -4053,6 +4058,9 @@
           },
           "customerPostalCode": {
             "type": "string"
+          },
+          "Status": {
+            "type": "integer"
           },
           "published_at": {
             "type": "string",
@@ -4089,7 +4097,8 @@
                 "products",
                 "customerCountry",
                 "customerAddress",
-                "customerPostalCode"
+                "customerPostalCode",
+                "Status"
               ],
               "properties": {
                 "id": {
@@ -4124,6 +4133,9 @@
                 },
                 "customerPostalCode": {
                   "type": "string"
+                },
+                "Status": {
+                  "type": "integer"
                 },
                 "published_at": {
                   "type": "string"
@@ -4450,7 +4462,8 @@
                 "products",
                 "customerCountry",
                 "customerAddress",
-                "customerPostalCode"
+                "customerPostalCode",
+                "Status"
               ],
               "properties": {
                 "id": {
@@ -4485,6 +4498,9 @@
                 },
                 "customerPostalCode": {
                   "type": "string"
+                },
+                "Status": {
+                  "type": "integer"
                 },
                 "published_at": {
                   "type": "string"
